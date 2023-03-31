@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import logo from "../../assets/images/logo.jpeg";
+import logo from "../../assets/images/logo.svg";
 import { Link } from "react-router-dom";
 import { nav } from "../../assets/data/data";
 import User from "./User";
@@ -22,7 +22,7 @@ const Header = () => {
             </ul>
           </nav>
           <div className="account flexCenter">
-            <User/>
+            <User />
           </div>
         </div>
       </header>
