@@ -1,10 +1,13 @@
 import React from "react";
-import Header from "../components/header/Header";
+import { Card } from "../components/blog/Card";
+import { Category } from "../components/category/Category";
 
-const Home = () => {
+export const Home = () => {
   return (
     <>
-      <Header />
+      {/*  <Slider />*/}
+      <Category />
+      <Card />
     </>
   );
 };
